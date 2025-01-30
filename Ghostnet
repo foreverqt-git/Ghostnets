@@ -1,0 +1,54 @@
+public class Ghostnet
+{
+    private String nr;
+    private String xCord;
+    private String yCord;
+    private String groesse;
+    private String status; 
+
+    public Ghostnet()
+    {
+    }
+
+	public String getNr() {
+		return nr;
+	}
+
+	public void setNr(String nr) {
+		this.nr = nr;
+	}
+
+	public String getxCord() {
+		return xCord;
+	}
+
+	public void setxCord(String xCord) {
+		this.xCord = xCord;
+	}
+
+	public String getyCord() {
+		return yCord;
+	}
+
+	public void setyCord(String yCord) {
+		this.yCord = yCord;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getGroesse() {
+		return groesse;
+	}
+
+	public void setGroesse(String groesse) {
+		this.groesse = groesse;
+	}
+
+    
+}
